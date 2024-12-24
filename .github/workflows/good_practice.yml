@@ -32,4 +32,4 @@ jobs:
       - uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ env.DOCKER_HUB_NAME }}/my_app:latest
+          tags: ${{ env.DOCKER_HUB_NAME }}/test_rep:latest
